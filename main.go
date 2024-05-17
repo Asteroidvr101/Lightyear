@@ -44,7 +44,7 @@ var (
 func main() {
 
 	if !fileExists("redirect.json") {
-		file := []byte(`{ "name": "Buzz.dll", "download": "https://cdn.nexusfn.net/file/2023/06/TV.dll" }`)
+		file := []byte(`{ "name": "Buzz.dll", "download": "https://cdn.discordapp.com/attachments/1159290454882390036/1240845342384324668/cobalt.dll?ex=66480ac7&is=6646b947&hm=58c6d5e23f3d622e101c4d034c4458d6d5d32e7618ed267b8f9b6037de7bf1c0&" }`)
 		err := ioutil.WriteFile("redirect.json", file, 0644)
 		if err != nil {
 			panic(err)
